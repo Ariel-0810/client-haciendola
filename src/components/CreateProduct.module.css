@@ -1,0 +1,80 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .Form {
+      width: 400px;
+      background: #24303c;
+      padding: 30px;
+      margin: auto;
+      margin-top: 5px;
+      border-radius: 10px;
+      font-family: calibri;
+      color: white;
+      box-shadow: 7px 13px 37px #000;
+      border: 1px solid #4d4e50;
+      }
+    
+      .Form h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        background: #24303c;
+        margin-left: 80px;
+      }
+        
+      .formInput {
+        width: 93%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin: 16px 0;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: white;
+      }
+  
+      .formInputLabel {
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        margin-bottom: 15px;      
+        font-family: 'calibri';
+        font-size: 18px;
+      }
+      
+      button {
+        width: 100%;
+        background-color: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: white;
+        color:#1f53c5
+      }
+  
+      .formInputP {
+          height: 40px;
+          text-align: center;
+          font-size: 18px;
+          line-height: 40px;
+          background: #24303c
+      }
+  
+      .formInputÄ {
+          height: 40px;
+          text-align: center;
+          font-size: 18px;
+          line-height: 40px;
+          background: #24303c
+      }
+  

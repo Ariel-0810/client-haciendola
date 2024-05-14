@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 5px;
+}
+.card {
+    width: 380px;
+    background-color: #9a83a0;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.content{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.cardFooter {
+    padding: 10px;   
+    margin-top: 5px;
+}
+
+    .buttonDelete {
+        width: 40%;
+        background-color: red;
+        border: none;
+        padding: 5px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .buttonDelete:hover {
+        background-color: rgb(240, 214, 102);
+        color:#1f53c5
+      }
+    .buttonEdit {
+        width: 40%;
+        background-color:yellowgreen;
+        border: none;
+        padding: 5px;
+        color: white;
+        margin: 16px 0;
+        margin-right: 2px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .buttonEdit:hover {
+        background-color: rgb(240, 214, 102);
+        color:#1f53c5
+      }
+      @media (max-width:640px) {
+        .container{
+          display: block;
+        width: 450px;
+        }
+      }
