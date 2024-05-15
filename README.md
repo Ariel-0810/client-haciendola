@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Frontend de Haciendola
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido al frontend de la aplicación de Haciendola! Este frontend está desarrollado con React y TypeScript, y utiliza Tailwind CSS para estilos.
 
-## Available Scripts
+# Despliegue en Vercel
 
-In the project directory, you can run:
+La aplicación de Haciendola está desplegada en Vercel y puedes acceder a ella desde el siguiente enlace:
+https://client-haciendola.vercel.app/
+¡No dudes en probarla y compartir tus comentarios!
 
-### `npm start`
+## NOTA:
+Por el momento esta aplicacion NO es responsiva. Pero se estara trabajando para ello.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Guía para iniciar el proyecto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Aquí están los comandos que necesitas para iniciar tu proyecto. Asegúrate de tener instalado React.js y NPM en tu sistema antes de ejecutar estos comandos.
 
-### `npm test`
+1. ## Clonar el Repositorio: Clona este repositorio en tu máquina local:
+git clone https://github.com/Ariel-0810/client-haciendola.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. ## Navegar al Directorio: Accede al directorio del frontend: cd client-haciendola
 
-### `npm run build`
+3. ## Instalar Dependencias: Instala las dependencias del proyecto con npm:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Instala las dependencias del proyecto
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Inicia el servidor de desarrollo
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sigue estos pasos en orden. Primero, npm install instalará todas las dependencias necesarias para tu proyecto. Finalmente, npm start iniciará el servidor de desarrollo,  y abrirá la aplicación en tu navegador por defecto
 
-### `npm run eject`
+## Pantalla de Login
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+La pantalla de inicio de sesión es la primera ventana que verán los usuarios al acceder a la aplicación. Aquí los usuarios podrán ingresar sus credenciales para autenticarse en el sistema.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Mantenedor de Productos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+La segunda ventana de la aplicación corresponde al mantenedor de productos. Aquí los usuarios autenticados podrán:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Ver Todos los Productos: Visualizar la lista completa de productos almacenados en la base de datos.
+ y buscar Productos por su Titulo.
 
-## Learn More
+- Crear Nuevo Producto: Agregar un nuevo producto a la base de datos.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Modificar Producto Existente: Editar los detalles de un producto ya existente.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Eliminar Producto: Eliminar productos de la base de datos.
+
+## Autenticación de Usuarios
+
+La aplicación valida que el usuario esté autenticado antes de permitir el acceso a las ventanas privadas. Un usuario no autenticado será redirigido a la pantalla de inicio de sesión. Esto garantiza la seguridad de los datos y la privacidad del sistema.
+
+
