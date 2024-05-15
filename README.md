@@ -36,7 +36,7 @@ Sigue estos pasos en orden. Primero, npm install instalará todas las dependenci
 
 La pantalla de inicio de sesión es la primera ventana que verán los usuarios al acceder a la aplicación. Aquí los usuarios podrán ingresar sus credenciales para autenticarse en el sistema.
 
-# Mantenedor de Productos
+## Mantenedor de Productos
 
 La segunda ventana de la aplicación corresponde al mantenedor de productos. Aquí los usuarios autenticados podrán:
 
