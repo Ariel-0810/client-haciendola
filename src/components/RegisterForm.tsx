@@ -10,8 +10,6 @@ const RegisterForm: React.FC = () => {
     password: "",
     fullname: "",
     email: "",
-    image: "",
-    phone: "",
   });
   const navigate = useNavigate();
 
